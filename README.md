@@ -13,3 +13,4 @@ I made this simple app over the course of a couple days to showcase my ability t
 - [ ] Add ability to actually invite members to an organization
 - [ ] Add ability to actually share files with other users
 - [ ] Add more settings options (password reset, delete account)
+- [ ] Work on mobile-responsive design
