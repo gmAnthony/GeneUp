@@ -14,8 +14,8 @@ function AuthSelector({ action, setAction }: AuthSelectorProps): JSX.Element {
         <React.Fragment key={index}>
           <span
             onClick={() => setAction(actionLabel)}
-            className={`text-display text-white text-xl cursor-pointer ${
-              actionLabel != action ? "text-opacity-10" : ""
+            className={`text-display text-white font-extrabold text-xl cursor-pointer ${
+              actionLabel != action ? "text-opacity-50 font-thin" : ""
             }`}
           >
             {actionLabel.slice(0, 1).toUpperCase() + actionLabel.slice(1)}
