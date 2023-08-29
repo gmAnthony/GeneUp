@@ -77,7 +77,7 @@ function LandingPage() {
           <GradientButton handleClick={handleClick} text="Get Started" />
         </div>
       )}
-      <div className="flex flex-col w-1/2 pl-20  py-20 self-start">
+      <div className="flex flex-col w-1/2 max-w-lg pl-20  py-20 self-start">
         {authenticating && (
           <>
             <AuthSelector
