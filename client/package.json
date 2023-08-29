@@ -11,10 +11,16 @@
   },
   "dependencies": {
     "@tabler/icons-react": "^2.32.0",
+    "biojs-io-fasta": "^0.1.17",
+    "bionode-fastq": "^2.2.0",
+    "firebase": "^10.3.0",
     "flowbite": "^1.8.1",
     "flowbite-react": "^0.5.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-router-dom": "^6.15.0",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

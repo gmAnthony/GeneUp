@@ -14,7 +14,6 @@ function LandingPage() {
   const [selectedAction, setSelectedAction] = useState<Actions>("login");
 
   const handleClick = () => {
-    console.log("clicked");
     setAuthenticating(true);
   };
 
@@ -48,7 +47,7 @@ function LandingPage() {
                     className="mr-4 bg-gradient-to-br from-purple-900 to-blue-500 p-2 rounded-full"
                   />
                 }
-                text="Store FASTA & FASTQ files with annotations, metadata, and
+                text="Store bioinformatics files with annotations, metadata, and
                 more."
               />
             </li>
